@@ -40,6 +40,7 @@ func main() {
 			fmt.Println("default case")
 		}
 
+
 		fmt.Println(":::::::::::::::::Ejercicio01:::::::::::::::::::::")
 
 		value, message := ejercicios.ValidateInteger("10i")
