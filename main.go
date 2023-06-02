@@ -1,7 +1,8 @@
 package main
 
 import ( //"runtime"
-	"github.com/go-desde-cero/ejercicios"
+
+	"github.com/go-desde-cero/files"
 )
 
 func main() {
@@ -50,5 +51,8 @@ func main() {
 		iteraciones.Iterated()
 	*/
 
-	ejercicios.ValidateNumber()
+	//fmt.Println(ejercicios.ValidateNumber())
+	//files.SaveTable()
+	//files.AddTable()
+	files.ReadFile()
 }

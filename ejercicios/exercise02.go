@@ -10,8 +10,9 @@ import (
 var number int
 var err error
 
-func ValidateNumber() {
+func ValidateNumber() string {
 	scanner := bufio.NewScanner(os.Stdin)
+	var text string
 	fmt.Println("Ingrese un número entre 1 y 10: ")
 	for scanner.Scan() {
 		number, err = strconv.Atoi(scanner.Text())
@@ -20,13 +21,12 @@ func ValidateNumber() {
 			continue
 		} else {
 			fmt.Println("El número ingresado es valido :", number)
-			textNumber := strconv.Itoa(number)
+			fmt.Println()
 			for i := 1; i <= 10; i++ {
-				textI := strconv.Itoa(i)
-				fmt.Println(textNumber+" * "+textI+"=", number*i)
+				text += fmt.Sprintf("\n %d * %d = %d", number, i, number*i)
 			}
 			break
 		}
 	}
-	fmt.Println("end function")
+	return text
 }
