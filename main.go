@@ -1,56 +1,54 @@
 package main
 
-import (
-	"fmt"
-
-	//"runtime"
-
-	//"github.com/go-desde-cero/ejercicios"
-	"github.com/go-desde-cero/teclado"
-	//"github.com/go-desde-cero/variables"
+import ( //"runtime"
+	"github.com/go-desde-cero/ejercicios"
 )
 
 func main() {
 	/*
-		fmt.Println(":::::::::::::::::ShowIntegers:::::::::::::::::::::")
-		variables.ShowIntegers()
+			fmt.Println(":::::::::::::::::ShowIntegers:::::::::::::::::::::")
+			variables.ShowIntegers()
 
-			fmt.Println(":::::::::::::::::OtherVariables:::::::::::::::::::::")
-			variables.OtherVariables()
-			fmt.Println(":::::::::::::::::ConvertToText:::::::::::::::::::::")
-			status, text := variables.ConvertToText(10324)
+				fmt.Println(":::::::::::::::::OtherVariables:::::::::::::::::::::")
+				variables.OtherVariables()
+				fmt.Println(":::::::::::::::::ConvertToText:::::::::::::::::::::")
+				status, text := variables.ConvertToText(10324)
 
-			fmt.Println("status: ", status)
-			fmt.Println("text: ", text)
+				fmt.Println("status: ", status)
+				fmt.Println("text: ", text)
 
-		fmt.Println(":::::::::::::::::Condiciones:::::::::::::::::::::")
+			fmt.Println(":::::::::::::::::Condiciones:::::::::::::::::::::")
 
-		if os := runtime.GOOS; os == "windows" {
-			fmt.Println("SI esto es:", os)
-		} else {
-			fmt.Println("DE OTRO MODO esto Linux")
-		}
+			if os := runtime.GOOS; os == "windows" {
+				fmt.Println("SI esto es:", os)
+			} else {
+				fmt.Println("DE OTRO MODO esto Linux")
+			}
 
-		switch os := runtime.GOOS; os {
-		case "windows":
-			fmt.Println("case windows")
-		case "mac":
-			fmt.Println("case mac")
-		default:
-			fmt.Println("default case")
-		}
+			switch os := runtime.GOOS; os {
+			case "windows":
+				fmt.Println("case windows")
+			case "mac":
+				fmt.Println("case mac")
+			default:
+				fmt.Println("default case")
+			}
 
 
-		fmt.Println(":::::::::::::::::Ejercicio01:::::::::::::::::::::")
+			fmt.Println(":::::::::::::::::Ejercicio01:::::::::::::::::::::")
 
-		value, message := ejercicios.ValidateInteger("10i")
+			value, message := ejercicios.ValidateInteger("10i")
 
-		fmt.Println("response number:", value)
-		fmt.Println("response message:", message)
+			fmt.Println("response number:", value)
+			fmt.Println("response message:", message)
 
+
+
+		fmt.Println(":::::::::::::::::Teclado:::::::::::::::::::::")
+		teclado.EnterNumber()
+
+		iteraciones.Iterated()
 	*/
 
-	fmt.Println(":::::::::::::::::Teclado:::::::::::::::::::::")
-	teclado.EnterNumber()
-
+	ejercicios.ValidateNumber()
 }
