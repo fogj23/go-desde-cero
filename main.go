@@ -2,7 +2,7 @@ package main
 
 import ( //"runtime"
 
-	"github.com/go-desde-cero/files"
+	"github.com/go-desde-cero/funciones"
 )
 
 func main() {
@@ -54,5 +54,6 @@ func main() {
 	//fmt.Println(ejercicios.ValidateNumber())
 	//files.SaveTable()
 	//files.AddTable()
-	files.ReadFile()
+	//files.ReadFile()
+	funciones.Exponencia(2)
 }
