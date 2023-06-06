@@ -2,7 +2,8 @@ package main
 
 import ( //"runtime"
 
-	"github.com/go-desde-cero/usuarios"
+	e "github.com/go-desde-cero/interfacesImpl"
+	"github.com/go-desde-cero/modelos"
 )
 
 func main() {
@@ -60,5 +61,11 @@ func main() {
 	//arreglosslices.ShowArray()
 	//arreglosslices.Capacity()
 	//mapas.ShowMaps()
-	usuarios.SaveUser()
+	//usuarios.SaveUser()
+
+	pedro := new(modelos.Hombre)
+	e.HumanoRespirando(pedro)
+
+	maria := new(modelos.Mujer)
+	e.HumanoRespirando(maria)
 }
