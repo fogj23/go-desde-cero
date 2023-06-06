@@ -2,13 +2,13 @@ package main
 
 import ( //"runtime"
 
-	"github.com/go-desde-cero/funciones"
+	arreglosslices "github.com/go-desde-cero/arreglos_slices"
 )
 
 func main() {
 	/*
 			fmt.Println(":::::::::::::::::ShowIntegers:::::::::::::::::::::")
-			variables.ShowIntegers()
+			variables.ShowIntegers()759658
 
 				fmt.Println(":::::::::::::::::OtherVariables:::::::::::::::::::::")
 				variables.OtherVariables()
@@ -55,5 +55,8 @@ func main() {
 	//files.SaveTable()
 	//files.AddTable()
 	//files.ReadFile()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+
+	//arreglosslices.ShowArray()
+	arreglosslices.Capacity()
 }
