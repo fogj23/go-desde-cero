@@ -2,7 +2,7 @@ package main
 
 import ( //"runtime"
 
-	arreglosslices "github.com/go-desde-cero/arreglos_slices"
+	"github.com/go-desde-cero/mapas"
 )
 
 func main() {
@@ -58,5 +58,6 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglosslices.ShowArray()
-	arreglosslices.Capacity()
+	//arreglosslices.Capacity()
+	mapas.ShowMaps()
 }
