@@ -2,7 +2,7 @@ package main
 
 import ( //"runtime"
 
-	"github.com/go-desde-cero/mapas"
+	"github.com/go-desde-cero/usuarios"
 )
 
 func main() {
@@ -59,5 +59,6 @@ func main() {
 
 	//arreglosslices.ShowArray()
 	//arreglosslices.Capacity()
-	mapas.ShowMaps()
+	//mapas.ShowMaps()
+	usuarios.SaveUser()
 }
